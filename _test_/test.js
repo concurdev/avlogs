@@ -1,15 +1,15 @@
 require("dotenv").config({
   path: require("path").resolve(__dirname, "../.env"),
 });
-const Recorder = require("../avlogs");
+const Avlogs = require("../avlogs");
 
-const logger = new Recorder();
+const avlogs = new Avlogs();
 
 console.log("\n--- Logging test started ---\n");
 
-logger.info("Application started successfully");
-logger.debug("Debugging mode active");
-logger.warn("Low memory warning");
-logger.error("Unhandled exception occurred");
+avlogs.info("Application started successfully");
+avlogs.debug("Debugging mode active");
+avlogs.warn("Low memory warning");
+avlogs.error("Unhandled exception occurred");
 
 console.log("\n--- Logging test completed ---\n");

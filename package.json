@@ -1,6 +1,6 @@
 {
   "name": "avlogs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight logging library with log rotation and structured logging",
   "main": "avlogs.js",
   "repository": {
