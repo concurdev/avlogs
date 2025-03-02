@@ -1,0 +1,31 @@
+{
+  "name": "log-recorder",
+  "version": "1.0.0",
+  "description": "A lightweight logging library with log rotation and structured logging",
+  "main": "log-recorder.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:concurdev/log-recorder.git"
+  },
+  "files": [
+    "log-recorder.js"
+  ],
+  "scripts": {
+    "test": "node _test_/test",
+    "start": "node log-recorder"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "log rotation",
+    "structured logging"
+  ],
+  "author": "Ashish Vashisht",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/concurdev/log-recorder/issues"
+  }
+}
