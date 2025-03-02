@@ -58,7 +58,7 @@ LOG_COMBINATION=error_warn
 require("dotenv").config();
 const LogRecorder = require("./avlogs");
 
-const logger = new Recorder();
+const logger = new Avlogs();
 
 logger.info("Application started successfully");
 logger.debug("Debugging mode active");
@@ -74,7 +74,7 @@ Sample test script inside `_test_/test.js`:
 require("dotenv").config();
 const LogRecorder = require("../avlogs");
 
-const logger = new Recorder();
+const logger = new Avlogs();
 
 logger.info("Application started successfully");
 logger.debug("Debugging mode active");
