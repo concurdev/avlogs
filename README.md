@@ -1,4 +1,4 @@
-# log-recorder
+# recorder
 
 A simple and configurable logging utility for Node.js applications. It supports different log levels, log rotation based on size or time, and configurable log file organization.
 

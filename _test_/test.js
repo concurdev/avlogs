@@ -1,9 +1,9 @@
 require("dotenv").config({
   path: require("path").resolve(__dirname, "../.env"),
 });
-const LogRecorder = require("../log-recorder");
+const Recorder = require("../recorder");
 
-const logger = new LogRecorder();
+const logger = new Recorder();
 
 console.log("\n--- Logging test started ---\n");
 

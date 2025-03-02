@@ -1,5 +1,5 @@
 {
-  "name": "log-recorder",
+  "name": "recorder",
   "version": "1.0.0",
   "description": "A lightweight logging library with log rotation and structured logging",
   "main": "log-recorder.js",
@@ -8,7 +8,7 @@
     "url": "git@github.com:concurdev/log-recorder.git"
   },
   "files": [
-    "log-recorder.js"
+    "recorder.js"
   ],
   "scripts": {
     "test": "node _test_/test",

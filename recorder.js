@@ -1,5 +1,5 @@
 /*
- * LogRecorder: A custom logging utility with support for log rotation, structured logging, and configurable log storage.
+ * Recorder: A custom logging utility with support for log rotation, structured logging, and configurable log storage.
  *
  * Features:
  * - Supports log levels: debug, info, warn, error.
@@ -17,7 +17,7 @@ const dotenv = require("dotenv");
 // Load environment variables from the project's root .env file
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
-class LogRecorder {
+class Recorder {
   constructor() {
     // Define log levels with their severity
     this.levels = { debug: 0, info: 1, warn: 2, error: 3 };
@@ -141,4 +141,4 @@ class LogRecorder {
   }
 }
 
-module.exports = LogRecorder;
+module.exports = Recorder;
