@@ -14,9 +14,7 @@ A simple and configurable logging utility for Node.js applications. It supports 
 ## Installation
 
 ```sh
-git clone git@github.com:concurdev/avlogs.git
-cd avlogs
-npm install
+npm install avlogs
 ```
 
 ## Configuration
