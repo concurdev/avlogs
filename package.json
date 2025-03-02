@@ -27,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/concurdev/avlogs/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
