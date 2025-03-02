@@ -1,18 +1,18 @@
 {
-  "name": "recorder",
+  "name": "avlogs",
   "version": "1.0.0",
   "description": "A lightweight logging library with log rotation and structured logging",
-  "main": "log-recorder.js",
+  "main": "avlogs.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:concurdev/log-recorder.git"
+    "url": "git@github.com:concurdev/avlogs.git"
   },
   "files": [
-    "recorder.js"
+    "avlogs.js"
   ],
   "scripts": {
     "test": "node _test_/test",
-    "start": "node log-recorder"
+    "start": "node avlogs"
   },
   "keywords": [
     "logger",
@@ -26,6 +26,6 @@
     "node": ">= 10"
   },
   "bugs": {
-    "url": "https://github.com/concurdev/log-recorder/issues"
+    "url": "https://github.com/concurdev/avlogs/issues"
   }
 }

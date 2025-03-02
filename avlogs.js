@@ -17,7 +17,7 @@ const dotenv = require("dotenv");
 // Load environment variables from the project's root .env file
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
-class Recorder {
+class Avlogs {
   constructor() {
     // Define log levels with their severity
     this.levels = { debug: 0, info: 1, warn: 2, error: 3 };
@@ -141,4 +141,4 @@ class Recorder {
   }
 }
 
-module.exports = Recorder;
+module.exports = Avlogs;

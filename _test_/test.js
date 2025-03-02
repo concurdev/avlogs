@@ -1,7 +1,7 @@
 require("dotenv").config({
   path: require("path").resolve(__dirname, "../.env"),
 });
-const Recorder = require("../recorder");
+const Recorder = require("../avlogs");
 
 const logger = new Recorder();
 

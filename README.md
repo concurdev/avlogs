@@ -1,4 +1,4 @@
-# recorder
+# avlogs
 
 A simple and configurable logging utility for Node.js applications. It supports different log levels, log rotation based on size or time, and configurable log file organization.
 
@@ -14,8 +14,8 @@ A simple and configurable logging utility for Node.js applications. It supports 
 ## Installation
 
 ```sh
-git clone git@github.com:concurdev/log-recorder.git
-cd log-recorder
+git clone git@github.com:concurdev/avlogs.git
+cd avlogs
 npm install
 ```
 
@@ -54,11 +54,11 @@ LOG_COMBINATION=error_warn
 
 ## Usage
 
-### Importing and Using LogRecorder
+### Importing and Using AVlogs
 
 ```javascript
 require("dotenv").config();
-const LogRecorder = require("./recorder");
+const LogRecorder = require("./avlogs");
 
 const logger = new Recorder();
 
@@ -74,7 +74,7 @@ Sample test script inside `_test_/test.js`:
 
 ```javascript
 require("dotenv").config();
-const LogRecorder = require("../recorder");
+const LogRecorder = require("../avlogs");
 
 const logger = new Recorder();
 
