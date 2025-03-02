@@ -58,9 +58,9 @@ LOG_COMBINATION=error_warn
 
 ```javascript
 require("dotenv").config();
-const LogRecorder = require("./log-recorder");
+const LogRecorder = require("./recorder");
 
-const logger = new LogRecorder();
+const logger = new Recorder();
 
 logger.info("Application started successfully");
 logger.debug("Debugging mode active");
@@ -74,9 +74,9 @@ Sample test script inside `_test_/test.js`:
 
 ```javascript
 require("dotenv").config();
-const LogRecorder = require("../log-recorder");
+const LogRecorder = require("../recorder");
 
-const logger = new LogRecorder();
+const logger = new Recorder();
 
 console.log("\n--- Logging test started ---\n");
 
